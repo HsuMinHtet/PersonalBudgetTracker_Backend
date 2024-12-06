@@ -11,6 +11,8 @@ public class AuditDataCreate {
 
         auditData.setCreatedBy(loggedInUser);
         auditData.setCreatedOn(now);
+        auditData.setUpdatedBy(null);
+        auditData.setUpdatedOn(null);
         return auditData;
     }
 }
